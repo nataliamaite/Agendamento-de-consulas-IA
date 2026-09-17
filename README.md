@@ -272,7 +272,7 @@ smart-scheduling/
 ├── pyproject.toml
 └── README.md
 ```
-![Tela inicial](assets/Captura de tela de 2026-09-16 22-01-46.png)
+![Tela inicial](/home/natalia/projeto-dados-aws/smart-scheduling/assets/Captura de tela de 2026-09-16 22-01-46.png)
 ## Como executar o projeto
 
 ### 1. Clonar o repositório
