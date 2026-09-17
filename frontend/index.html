@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Smart Scheduling</title>
+
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<main class="app">
+
+    <header class="header">
+        <div class="header-icon">📅</div>
+
+        <div>
+            <h1>Smart Scheduling</h1>
+            <p>Assistente de agendamento</p>
+        </div>
+    </header>
+
+
+    <section class="chat" id="chat">
+
+        <div class="message assistant">
+            <div class="avatar">🤖</div>
+
+            <div class="bubble">
+                Olá! 👋<br><br>
+
+                Sou o assistente da clínica.
+                Posso ajudar você a consultar horários,
+                agendar uma consulta ou consultar seus agendamentos.
+                <br><br>
+
+                Como posso ajudar?
+            </div>
+        </div>
+
+    </section>
+
+
+    <div class="suggestions">
+
+        <button
+            class="suggestion"
+            data-message="Quais horários estão disponíveis amanhã?"
+        >
+            📅 Ver horários
+        </button>
+
+        <button
+            class="suggestion"
+            data-message="Quero marcar uma consulta amanhã às 15h"
+        >
+            🩺 Agendar consulta
+        </button>
+
+        <button
+            class="suggestion"
+            data-message="Quais consultas estão agendadas?"
+        >
+            📋 Ver agendamentos
+        </button>
+
+    </div>
+
+
+    <form class="input-area" id="message-form">
+
+        <input
+            type="text"
+            id="message-input"
+            placeholder="Digite sua mensagem..."
+            autocomplete="off"
+        >
+
+        <button
+            type="submit"
+            id="send-button"
+        >
+            ➤
+        </button>
+
+    </form>
+
+</main>
+
+
+<script src="script.js"></script>
+```
+
+</body>
+
+</html>
